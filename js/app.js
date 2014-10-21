@@ -63,7 +63,7 @@ EtsyClient.prototype.drawSingleListing = function(id) {
 
     grid.innerHTML = bigHtmlString;
 }
-
+/*
 EtsyClient.prototype.setupRouting = function() {
     var self = this;
 
@@ -82,7 +82,7 @@ EtsyClient.prototype.setupRouting = function() {
     // set the default hash
     Path.root("#/");
 }
-
+*/
 EtsyClient.prototype.init = function() {
     var self = this;
     this.setupRouting();
