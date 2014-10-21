@@ -2,7 +2,6 @@ window.onload = app;
 
 function app() {
 
-    // load some scripts (uses promises :D)
     loader.load({
         url: "./bower_components/jquery/dist/jquery.min.js"
     }, {
@@ -13,9 +12,8 @@ function app() {
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
         var options = {
-                api_key: "0kn1ymccnwak8kmw7rgsfnlw"
-            }
-            // start app?
+            api_key: "0kn1ymccnwak8kmw7rgsfnlw"
+        }
         var client = new EtsyClient(options);
     })
 
