@@ -29,7 +29,6 @@ function EtsyClient(options) {
     this.api_key = options.api_key;
     this.complete_api_url = this.etsy_url + this.version;
 
-
     this.init();
 }
 
