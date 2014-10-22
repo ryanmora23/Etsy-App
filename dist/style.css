@@ -59,3 +59,23 @@ p {
 span {
     font-size: 20px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+.navBar {
+    color: black;
+    font-size: 25px;
+}
+.navBar a:visited {
+    color: black;
+}
+.navContainer {
+    border: 1px solid gray;
+    max-width: 100%;
+    background-color: darkgray;
+}

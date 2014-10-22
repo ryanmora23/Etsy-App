@@ -85,6 +85,9 @@ EtsyClient.prototype.setupRouting = function() {
         self.drawSingleListing(this.params.id);
     });
 
+    Path.map("#/Contact/");
+    Path.map("#/About");
+
     Path.root("#/");
 };
 
