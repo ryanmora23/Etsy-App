@@ -13,9 +13,9 @@ function app() {
 
         var options = {
             api_key: "0kn1ymccnwak8kmw7rgsfnlw"
-        }
+        };
         var client = new EtsyClient(options);
-    })
+    });
 
 }
 

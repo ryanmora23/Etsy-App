@@ -1,6 +1,13 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
+* {
+    -webkit-transition: 1s ease;
+            transition: 1s ease;
+}
+html {
+    background-color: lightgray;
+}
 .grid {
     display: block;
     font-size: 0;
@@ -18,6 +25,9 @@
     font-size: medium;
     vertical-align: top;
     text-align: left;
+    border: 1px solid gray;
+    font-family: Didot, “Didot LT STD”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+    background-color: white;
 }
 @media (min-width: 800px) {
     .grid-3-800 > * {
@@ -26,4 +36,25 @@
 }
 img {
     max-width: 100%;
+}
+a:hover {
+    color: #27CFC3;
+}
+a:visited {
+    color: red;
+}
+a:visited:hover {
+    color: #27CFC3;
+}
+a:active {
+    color: cyan;
+}
+h5 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+span {
+    font-size: 20px;
 }
