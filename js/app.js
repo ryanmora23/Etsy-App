@@ -47,7 +47,12 @@ EtsyClient.prototype.loadTemplate = function(name) {
         return arguments[0];
     });
 };
+EtsyClient.prototype.drawContact = function(){
 
+};
+EtsyClient.prototype.drawAbout = function(){
+
+};
 EtsyClient.prototype.drawListings = function(templateString, data) {
     var grid = document.querySelector("#listings");
 
@@ -85,8 +90,12 @@ EtsyClient.prototype.setupRouting = function() {
         self.drawSingleListing(this.params.id);
     });
 
-    Path.map("#/Contact/");
-    Path.map("#/About");
+    Path.map("#/Contact/").to(function() {
+        self.drawContact();
+    });
+    Path.map("#/About").to(function() {
+        self.drawAbout();
+    });
 
     Path.root("#/");
 };
