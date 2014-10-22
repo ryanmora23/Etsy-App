@@ -28,6 +28,7 @@ html {
     border: 1px solid gray;
     font-family: Didot, “Didot LT STD”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
     background-color: white;
+    color: black;
 }
 @media (min-width: 800px) {
     .grid-3-800 > * {
@@ -38,13 +39,13 @@ img {
     max-width: 100%;
 }
 a:hover {
-    color: #27CFC3;
+    background-color: #27CFC3;
 }
 a:visited {
     color: red;
 }
 a:visited:hover {
-    color: #27CFC3;
+    background-color: #27CFC3;
 }
 a:active {
     color: cyan;
