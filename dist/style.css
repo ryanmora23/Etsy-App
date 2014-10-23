@@ -37,6 +37,11 @@ html {
 }
 img {
     max-width: 100%;
+    border: 1px solid black;
+}
+a {
+    padding: 10px;
+    margin: 10px;
 }
 a:hover {
     background-color: #27CFC3;
@@ -52,6 +57,7 @@ a:active {
 }
 h5 {
     font-size: 20px;
+    text-overflow: ellipsis;
 }
 p {
     font-size: 15px;
@@ -101,4 +107,8 @@ hr:after {
     text-align: center;
     position: absolute;
     width: 100%;
+}
+div div a:hover {
+    background-color: orange;
+    color: black;
 }
