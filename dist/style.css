@@ -44,7 +44,7 @@ a {
     margin: 10px;
     border-radius: 2%;
 }
-a:hover {
+.blue:hover {
     background-color: #27CFC3;
 }
 a:visited {
@@ -112,4 +112,7 @@ hr:after {
 div div a:hover {
     background-color: orange;
     color: black;
+}
+a.blue {
+    box-shadow: -5px 5px 5px gray;
 }
